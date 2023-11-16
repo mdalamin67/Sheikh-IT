@@ -1,3 +1,198 @@
+/* Medium devices start */
+@media (max-width: 991.98px) { 
+        /* nav part start */
+        .nav-link {
+            padding: 10px !important;
+        }
+        .navbar-nav {
+            padding-top: 30px;
+            height: 100vh;
+        }
+        .navbar .nav-item .nav-link::before {
+            display: none;
+        }
+        /* nav part end */
+    
+        /* banner part start */
+        #banner {
+            height: 500px;
+        }
+        .intro h1 {
+            font-size: 45px;
+        }
+        .btn-group a {
+            padding: 10px 15px;
+        }
+        .btn-group a {
+            background: linear-gradient(#008000 #ff0000) !important;
+        }
+
+        /* banner part end */
+    
+        /* service item start */
+        .section-pd {
+            padding: 50px 0;
+        }
+        .service-item .service-icon-one,
+        .service-icon-two {
+            font-size: 2rem;
+        }
+        .service-item .service-icon-one,
+        .service-icon-two {
+            width: 4rem;
+            height: 4rem;
+        }
+        .service-item h3 {
+            font-size: 25px;
+        }
+        /* service item end */
+    
+        /* case cading studeis start */
+        .section-heading h2 {
+            font-size: 35px;
+        }
+        .card-title {
+            font-size: 25px;
+        }
+        /* case cading studeis end */
+    
+        /* price plan start */
+        .section-heading {
+            margin-bottom: 40px;
+        }
+        .price-title h3 {
+            font-size: 25px;
+        }
+    
+        /* price plan end */
+    
+        /* client part start */
+        .client-image img {
+            width: 3rem;
+            height: 3rem;
+        }
+        .cilent-name-ttl h6 {
+            font-size: 12px;
+        }
+        /* client part end */
+    
+        /* contact part start */
+        .contact-heading {
+            text-align: center;
+        }
+        .contact-number h3 {
+            font-size: 20px;
+        }
+        .contact-button button {
+            padding: 10px 20px;
+        }
+        .contact-number-icon i {
+            font-size: 40px;
+        }
+        .contact-mail-icon i {
+            font-size: 40px;
+        }
+        .btn {
+            padding: 10px 20px;
+        }
+ }
+/* Medium devices end */
+
+/* Small devices start */
+@media (max-width: 767.98px) { 
+    /* nav part start */
+    .nav-link {
+        padding: 10px !important;
+    }
+    .navbar-nav {
+        padding-top: 30px;
+        height: 100vh;
+    }
+    .navbar .nav-item .nav-link::before {
+        display: none;
+    }
+    /* nav part end */
+
+    /* banner part start */
+    #banner {
+        height: 500px;
+    }
+    .intro h1 {
+        font-size: 35px;
+    }
+    .btn-group a {
+        padding: 10px 15px;
+    }
+    /* banner part end */
+
+    /* service item start */
+    .section-pd {
+        padding: 40px 0;
+    }
+    .service-item .service-icon-one,
+    .service-icon-two {
+        font-size: 2rem;
+    }
+    .service-item .service-icon-one,
+    .service-icon-two {
+        width: 4rem;
+        height: 4rem;
+    }
+    .service-item h3 {
+        font-size: 25px;
+    }
+    /* service item end */
+
+    /* case cading studeis start */
+    .section-heading h2 {
+        font-size: 30px;
+    }
+    .card-title {
+        font-size: 25px;
+    }
+    /* case cading studeis end */
+
+    /* price plan start */
+    .section-heading {
+        margin-bottom: 40px;
+    }
+    .price-title h3 {
+        font-size: 25px;
+    }
+
+    /* price plan end */
+
+    /* client part start */
+    .client-image img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .cilent-name-ttl h6 {
+        font-size: 12px;
+    }
+    /* client part end */
+
+    /* contact part start */
+    .contact-number h3 {
+        font-size: 20px;
+    }
+    .contact-button button {
+        padding: 10px 20px;
+    }
+    .contact-number-icon i {
+        font-size: 40px;
+    }
+    .contact-mail-icon i {
+        font-size: 40px;
+    }
+    .btn {
+        padding: 10px 20px;
+    }
+    /* contact part end */
+ }
+/* Small devices end */
+
+
 /* X-Small devices start */
 @media (max-width: 575.98px) { 
     /* nav part start */
@@ -94,193 +289,3 @@
     /* contact part end */
  }
 /* X-Small devices end */
-
-/* Small devices start */
-@media (max-width: 767.98px) { 
-    /* nav part start */
-    .nav-link {
-        padding: 10px !important;
-    }
-    .navbar-nav {
-        padding-top: 30px;
-        height: 100vh;
-    }
-    .navbar .nav-item .nav-link::before {
-        display: none;
-    }
-    /* nav part end */
-
-    /* banner part start */
-    #banner {
-        height: 500px;
-    }
-    .intro h1 {
-        font-size: 35px;
-    }
-    .btn-group a {
-        padding: 10px 15px;
-    }
-    /* banner part end */
-
-    /* service item start */
-    .section-pd {
-        padding: 40px 0;
-    }
-    .service-item .service-icon-one,
-    .service-icon-two {
-        font-size: 2rem;
-    }
-    .service-item .service-icon-one,
-    .service-icon-two {
-        width: 4rem;
-        height: 4rem;
-    }
-    .service-item h3 {
-        font-size: 25px;
-    }
-    /* service item end */
-
-    /* case cading studeis start */
-    .section-heading h2 {
-        font-size: 30px;
-    }
-    .card-title {
-        font-size: 25px;
-    }
-    /* case cading studeis end */
-
-    /* price plan start */
-    .section-heading {
-        margin-bottom: 40px;
-    }
-    .price-title h3 {
-        font-size: 25px;
-    }
-
-    /* price plan end */
-
-    /* client part start */
-    .client-image img {
-        width: 3rem;
-        height: 3rem;
-    }
-    .cilent-name-ttl h6 {
-        font-size: 12px;
-    }
-    /* client part end */
-
-    /* contact part start */
-    .contact-number h3 {
-        font-size: 20px;
-    }
-    .contact-button button {
-        padding: 10px 20px;
-    }
-    .contact-number-icon i {
-        font-size: 40px;
-    }
-    .contact-mail-icon i {
-        font-size: 40px;
-    }
-    .btn {
-        padding: 10px 20px;
-    }
-    /* contact part end */
- }
-/* Small devices end */
-
-/* Medium devices start */
-@media (max-width: 991.98px) { 
-        /* nav part start */
-        .nav-link {
-            padding: 10px !important;
-        }
-        .navbar-nav {
-            padding-top: 30px;
-            height: 100vh;
-        }
-        .navbar .nav-item .nav-link::before {
-            display: none;
-        }
-        /* nav part end */
-    
-        /* banner part start */
-        #banner {
-            height: 500px;
-        }
-        .intro h1 {
-            font-size: 45px;
-        }
-        .btn-group a {
-            padding: 10px 15px;
-        }
-        /* banner part end */
-    
-        /* service item start */
-        .section-pd {
-            padding: 50px 0;
-        }
-        .service-item .service-icon-one,
-        .service-icon-two {
-            font-size: 2rem;
-        }
-        .service-item .service-icon-one,
-        .service-icon-two {
-            width: 4rem;
-            height: 4rem;
-        }
-        .service-item h3 {
-            font-size: 25px;
-        }
-        /* service item end */
-    
-        /* case cading studeis start */
-        .section-heading h2 {
-            font-size: 35px;
-        }
-        .card-title {
-            font-size: 25px;
-        }
-        /* case cading studeis end */
-    
-        /* price plan start */
-        .section-heading {
-            margin-bottom: 40px;
-        }
-        .price-title h3 {
-            font-size: 25px;
-        }
-    
-        /* price plan end */
-    
-        /* client part start */
-        .client-image img {
-            width: 3rem;
-            height: 3rem;
-        }
-        .cilent-name-ttl h6 {
-            font-size: 12px;
-        }
-        /* client part end */
-    
-        /* contact part start */
-        .contact-heading {
-            text-align: center;
-        }
-        .contact-number h3 {
-            font-size: 20px;
-        }
-        .contact-button button {
-            padding: 10px 20px;
-        }
-        .contact-number-icon i {
-            font-size: 40px;
-        }
-        .contact-mail-icon i {
-            font-size: 40px;
-        }
-        .btn {
-            padding: 10px 20px;
-        }
- }
-/* Medium devices end */
