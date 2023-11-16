@@ -188,7 +188,7 @@ body {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
-/* .btn-group a::after {
+.btn-group a::after {
     position: absolute;
     content: '';
     height: calc(100% + 4px);
@@ -213,7 +213,7 @@ body {
 }
 .btn-group a:hover:after {
     opacity: 1;
-} */
+}
 .btn-group a:hover {
     border-color: transparent;
 }
