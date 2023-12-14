@@ -26,6 +26,8 @@ p {
     line-height: 24px;
 }
 body {
+    background: rgba(226, 225, 255, 0.212);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.041) 0%, rgba(10, 113, 191, 0.041) 35%, rgba(26, 21, 102, 0.055) 100%);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -41,13 +43,13 @@ body {
     padding: 0;
 }
 .nav-bg {
-    background-color: #fff;
+    background: #fff;
     position: fixed;
     z-index: 9999;
     width: 100%;
 }
 .navfixed-bg{
-    background-color: #fff !important;
+    background: #fff !important;
     position: fixed;
     top: 0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -307,7 +309,7 @@ body {
 }
 /* service part css end */
 
-/* case studies css part start */
+/* service css part start */
 .section-heading {
     margin-bottom: 80px;
 }
@@ -319,6 +321,11 @@ body {
 }
 .case-studies-item {
     position: relative;
+}
+.service-item .card img {
+    width: 100%;
+    height: 260px;
+    background: #f1f1f1;
 }
 .card-title {
     font-size: 30px;
@@ -367,7 +374,7 @@ body {
     -ms-transform: scaleX(1);
     -o-transform: scaleX(1);
 }
-/* case studies css part end */
+/* service css part end */
 
 /* growth css start */
 .grow-icon i {
@@ -620,6 +627,7 @@ body {
 .client-image img {
     width: 5rem;
     height: 5rem;
+    background: #f1f1f1;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
