@@ -43,7 +43,7 @@ body {
     padding: 0;
 }
 .nav-bg {
-    background: #fff;
+    background: transparent;
     position: fixed;
     z-index: 9999;
     width: 100%;
@@ -70,7 +70,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #555 !important;
+    color: #ffffff !important;
     text-transform: capitalize;
     padding: 35px 0 !important;
     position: relative;
