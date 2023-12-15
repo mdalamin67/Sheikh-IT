@@ -57,7 +57,6 @@ body {
     animation: menubg .9s;
     -webkit-animation: menubg .9s;
 }
-
 @keyframes menubg{
     from{
         top: -112px;
@@ -66,10 +65,13 @@ body {
         top: 0;
     }
 }
-.navfixed-bg .nav-link {
+.navbar-toggler-icon i {
     color: #555;
 }
-.nav-link {
+.navfixed-bg .menu-link {
+    color: #555;
+}
+.menu-link {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -79,7 +81,7 @@ body {
     position: relative;
     display: inline-block;
 }
-.nav-link:hover {
+.menu-link:hover {
     color: #FF4500;
     transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -87,7 +89,7 @@ body {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
-.navbar .nav-item .nav-link:hover:before {
+.navbar .nav-item .menu-link:hover:before {
     background: #FF4500;
     box-shadow: 9px 0 0 0 #FF4500, 18px 0 0 0 #FF4500;
     transition: 0.3s;
@@ -99,7 +101,7 @@ body {
 .nav-item {
     padding: 0 15px;
 }
-.navbar .nav-item .nav-link::before {
+.navbar .nav-item .menu-link::before {
     position: absolute;
     content: '';
     height: 4px;
@@ -126,12 +128,9 @@ body {
     -ms-transition: all .4s ease;
     -o-transition: all .4s ease;
 }
-.navbar .nav-item .nav-link:hover::before {
+.navbar .nav-item .menu-link:hover::before {
     opacity: 1;
     left: 50%;
-}
-.navbar-brand img {
-    width: 70%;
 }
 .dropdown-menu[data-bs-popper] {
     top: 100%;
@@ -142,8 +141,21 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #555 !important;
+    color: #555;
     text-transform: capitalize;
+}
+.dropdown-menu li .dropdown-item:hover {
+    background-color: #316FF6;
+    color: #FF4500;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #316FF6;
+    color: #FF4500;
 }
 .navbar-toggler-icon {
     font-size: 25px;
