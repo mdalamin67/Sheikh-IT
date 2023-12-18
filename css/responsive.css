@@ -105,7 +105,14 @@
 /* Small devices start */
 @media (max-width: 767.98px) { 
     /* nav part start */
+    .nav-bg {
+        background: #fff;
+    }
+    .nav-logo {
+        width: 200px;
+    }
     .menu-link {
+        color: #555;
         padding: 10px !important;
     }
     .navbar-nav {
@@ -200,7 +207,14 @@
 /* X-Small devices start */
 @media (max-width: 575.98px) { 
     /* nav part start */
+    .nav-bg {
+        background: #fff;
+    }
+    .nav-logo {
+        width: 200px;
+    }
     .menu-link {
+        color: #555;
         padding: 10px !important;
     }
     .navbar-nav {

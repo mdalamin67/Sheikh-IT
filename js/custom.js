@@ -1,5 +1,10 @@
 // nav fixed 
 // nav fixed
+$('.back-to-top i').click(function(){
+  $('html, body').animate({
+    scrollTop:0
+  },500)
+})
 $(window).scroll(function(){
   var scrolling = $(this).scrollTop()
   if(scrolling > 50){
@@ -8,12 +13,11 @@ $(window).scroll(function(){
   else{
     $('.nav-bg').removeClass('navfixed-bg')
   }
-
-  if(scrolling > 20){
-    $('.back_to_top i').fadeIn(500)
+  if(scrolling > 50){
+    $('.back-to-top i').fadeIn(500)
   }
   else{
-    $('.back_to_top i').fadeOut(500)
+    $('.back-to-top i').fadeOut(500)
   }
 })
 
@@ -51,8 +55,5 @@ $('.client-slide-main').slick({
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
