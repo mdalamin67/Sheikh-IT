@@ -13,7 +13,7 @@
         }
         .navbar-nav {
             padding-top: 30px;
-            height: 100vh;
+            height: auto;
         }
         .navbar .nav-item .menu-link::before {
             display: none;
@@ -22,7 +22,7 @@
     
         /* banner part start */
         #banner {
-            height: 500px;
+            padding-top: 100px;
         }
         .intro h1 {
             font-size: 40px;
@@ -49,26 +49,14 @@
         .service-item h3 {
             font-size: 25px;
         }
-        /* service item end */
-    
-        /* case cading studeis start */
         .section-heading h2 {
             font-size: 35px;
         }
-        .card-title {
+        .service-title {
             font-size: 25px;
         }
-        /* case cading studeis end */
+        /* service item end */
     
-        /* price plan start */
-        .section-heading {
-            margin-bottom: 40px;
-        }
-        .price-title h3 {
-            font-size: 25px;
-        }
-    
-        /* price plan end */
     
         /* client part start */
         .client-image img {
@@ -117,7 +105,7 @@
     }
     .navbar-nav {
         padding-top: 30px;
-        height: 100vh;
+        height: auto;
     }
     .navbar .nav-item .menu-link::before {
         display: none;
@@ -125,9 +113,6 @@
     /* nav part end */
 
     /* banner part start */
-    #banner {
-        height: 500px;
-    }
     .intro h1 {
         font-size: 35px;
     }
@@ -152,26 +137,17 @@
     .service-item h3 {
         font-size: 25px;
     }
-    /* service item end */
-
-    /* case cading studeis start */
     .section-heading h2 {
         font-size: 30px;
     }
-    .card-title {
+    .service-title {
         font-size: 25px;
     }
+    /* service item end */
+
+    /* case cading studeis start */
+
     /* case cading studeis end */
-
-    /* price plan start */
-    .section-heading {
-        margin-bottom: 40px;
-    }
-    .price-title h3 {
-        font-size: 25px;
-    }
-
-    /* price plan end */
 
     /* client part start */
     .client-image img {
@@ -219,7 +195,7 @@
     }
     .navbar-nav {
         padding-top: 30px;
-        height: 100vh;
+        height: auto;
     }
     .navbar .nav-item .menu-link::before {
         display: none;
@@ -227,9 +203,6 @@
     /* nav part end */
 
     /* banner part start */
-    #banner {
-        height: 500px;
-    }
     .intro h1 {
         font-size: 33px;
     }
@@ -242,15 +215,6 @@
     .section-pd {
         padding: 40px 0;
     }
-    .service-item .service-icon-one,
-    .service-icon-two {
-        font-size: 2rem;
-    }
-    .service-item .service-icon-one,
-    .service-icon-two {
-        width: 4rem;
-        height: 4rem;
-    }
     .service-item h3 {
         font-size: 25px;
     }
@@ -260,20 +224,11 @@
     .section-heading h2 {
         font-size: 30px;
     }
-    .card-title {
+    .service-title {
         font-size: 25px;
     }
     /* case cading studeis end */
 
-    /* price plan start */
-    .section-heading {
-        margin-bottom: 40px;
-    }
-    .price-title h3 {
-        font-size: 25px;
-    }
-
-    /* price plan end */
 
     /* client part start */
     .client-image img {

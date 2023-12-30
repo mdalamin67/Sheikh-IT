@@ -4,9 +4,6 @@
     box-sizing: border-box;
     outline: 0;
 }
-html {
-    
-}
 a {
     text-decoration: none;
 }
@@ -175,7 +172,7 @@ body {
 
 /* banner part css start  */
 #banner {
-    padding-top: 220px;
+    padding-top: 150px;
     padding-bottom: 80px;
 }
 .intro h1 {
@@ -229,20 +226,13 @@ body {
     color: #fff;
     text-transform: capitalize;
 }
-.service-item .service-icon-one {
-    display: inline-block;
-    height: 4.5rem;
-    width: 4.5rem;
-    text-align: center;
-    line-height: 4.5rem;
-    background-color: rgba(190, 99, 249, 0.15);
-    color: #be63f9;
-    font-size: 2.5rem;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+.service-item {
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .service-item a {
     font-weight: 500;
@@ -292,6 +282,7 @@ body {
 }
 .section-heading {
     margin-bottom: 80px;
+    text-align: center;
 }
 .section-heading h2{
     font-size: 40px;
@@ -299,29 +290,11 @@ body {
     text-align: center;
     text-transform: capitalize;
 }
-.case-studies-item {
-    position: relative;
-}
-.service-item .card img {
-    width: 100%;
-    background: #f1f1f1;
-}
-.service-item .card {
-    background-color: #000;
-}
-.card-title {
-    font-size: 30px;
-    font-weight: 600;
-    text-transform: capitalize;
+.service-item-text {
+    padding: 1rem;
 }
 
 /* service css part end */
-
-/* growth css start */
-.grow-icon i {
-    color: #FF4500;
-}
-/* growth css end */
 
 /* client css start */
 
@@ -341,15 +314,17 @@ body {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+.revew-text {
+    padding-top: 20px;
+}
 .client-list i {
     position: absolute;
     top: 6%;
-    left: 10%;
+    right: 10%;
     z-index: -1;
     color: #4d4a4a;
     font-size: 80px;
 }
-
 .cilent-name-ttl h5 {
     text-transform: capitalize;
     font-size: 16px;
@@ -529,12 +504,12 @@ body {
 /* footer part end */
 
 /* back to top start */
-.back-to-top i{
+.back-to-top {
     height: 40px;
     width: 40px;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 25px;
     color: #fff;
     background: #FF4500;
     line-height: 40px;

@@ -14,23 +14,23 @@ $(window).scroll(function(){
     $('.nav-bg').removeClass('navfixed-bg')
   }
   if(scrolling > 50){
-    $('.back-to-top i').fadeIn(500)
+    $('.back-to-top').fadeIn(500)
   }
   else{
-    $('.back-to-top i').fadeOut(500)
+    $('.back-to-top').fadeOut(500)
   }
 })
 
 // client slick
 $('.client-slide-main').slick({
     dots: true,
-    centerMode: true,
-    centerPadding: '0px',
     arrows: false,
     infinite: true,
     speed: 700,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
     responsive: [
       {
         breakpoint: 1024,
